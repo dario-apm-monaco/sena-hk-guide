@@ -1,0 +1,49 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+PRODID:-//Sena HK Guide//Calendrier//FR
+X-WR-CALNAME:Mercredi — Temples puis courses
+X-WR-TIMEZONE:Asia/Hong_Kong
+BEGIN:VTIMEZONE
+TZID:Asia/Hong_Kong
+X-LIC-LOCATION:Asia/Hong_Kong
+BEGIN:STANDARD
+TZOFFSETFROM:+0800
+TZOFFSETTO:+0800
+TZNAME:HKT
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:2026-09-16-morning@sena-hk-guide.local
+DTSTAMP:20260910T034354Z
+SUMMARY:Chi Lin Nunnery
+DESCRIPTION:Temple en bois\, silence\, photos.
+DTSTART;TZID=Asia/Hong_Kong:20260916T093000
+DTEND;TZID=Asia/Hong_Kong:20260916T113000
+LOCATION:Diamond Hill
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-16-afternoon@sena-hk-guide.local
+DTSTAMP:20260910T034354Z
+SUMMARY:Nan Lian Garden + café
+DESCRIPTION:Jardin Tang. Puis retour Central en MTR — repose-toi un peu
+  avant le soir.
+DTSTART;TZID=Asia/Hong_Kong:20260916T113000
+DTEND;TZID=Asia/Hong_Kong:20260916T150000
+LOCATION:Diamond Hill
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-16-evening@sena-hk-guide.local
+DTSTAMP:20260910T034354Z
+SUMMARY:Courses à Happy Valley
+DESCRIPTION:Les courses du mercredi soir\, l’institution locale : hippo
+ drome cerné de tours illuminées. Portes vers 18h30\, première course 
+ vers 19h15. Tram « ding ding » direction Happy Valley\, ou MTR jusqu
+ ’à Causeway Bay puis 10 min à pied.
+DTSTART;TZID=Asia/Hong_Kong:20260916T183000
+DTEND;TZID=Asia/Hong_Kong:20260916T223000
+LOCATION:2 Sports Road\, Happy Valley
+END:VEVENT
+END:VCALENDAR

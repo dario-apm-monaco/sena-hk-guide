@@ -1,0 +1,267 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+PRODID:-//Sena HK Guide//Calendrier//FR
+X-WR-CALNAME:Sena à Hong Kong
+X-WR-TIMEZONE:Asia/Hong_Kong
+BEGIN:VTIMEZONE
+TZID:Asia/Hong_Kong
+X-LIC-LOCATION:Asia/Hong_Kong
+BEGIN:STANDARD
+TZOFFSETFROM:+0800
+TZOFFSETTO:+0800
+TZNAME:HKT
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:2026-09-11-morning@sena-hk-guide.local
+DTSTAMP:20260910T034354Z
+SUMMARY:Atterrissage → Airport Express
+DESCRIPTION:Immigration\, bagages\, Airport Express. Je t’attends à la
+  sortie du train à Hong Kong Station. Suis l’assistant Arrivée pas 
+ à pas.
+DTSTART;TZID=Asia/Hong_Kong:20260911T072500
+DTEND;TZID=Asia/Hong_Kong:20260911T103000
+LOCATION:Hong Kong Station\, IFC / Central
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-11-afternoon@sena-hk-guide.local
+DTSTAMP:20260910T034354Z
+SUMMARY:Sieste puis balade Sheung Wan
+DESCRIPTION:Réveil avant 14h. Man Mo Temple (2 min)\, Cat Street\, PMQ\,
+  un café. Zéro transport.
+DTSTART;TZID=Asia/Hong_Kong:20260911T140000
+DTEND;TZID=Asia/Hong_Kong:20260911T173000
+LOCATION:124–126 Hollywood Road
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-11-evening@sena-hk-guide.local
+DTSTAMP:20260910T034354Z
+SUMMARY:Star Ferry → Vibes Below Zero @ The Rink
+DESCRIPTION:Coucher de soleil en Star Ferry\, puis Elements (Kowloon Stat
+ ion). Détails de la soirée ci-dessous.
+DTSTART;TZID=Asia/Hong_Kong:20260911T183000
+DTEND;TZID=Asia/Hong_Kong:20260911T233000
+LOCATION:Central Pier 7
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-12-morning@sena-hk-guide.local
+DTSTAMP:20260910T034354Z
+SUMMARY:Selon le bouton Shenzhen
+DESCRIPTION:Voir le module Shenzhen\, ou journée Stanley / Repulse Bay.
+DTSTART;TZID=Asia/Hong_Kong:20260912T080000
+DTEND;TZID=Asia/Hong_Kong:20260912T163000
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-12-evening@sena-hk-guide.local
+DTSTAMP:20260910T034354Z
+SUMMARY:Barbecue chez Thomas
+DESCRIPTION:À partir de 18h en New Territories (au nord de Kowloon). Tu 
+ y vas avec Dario.
+DTSTART;TZID=Asia/Hong_Kong:20260912T180000
+DTEND;TZID=Asia/Hong_Kong:20260912T230000
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-13-morning@sena-hk-guide.local
+DTSTAMP:20260910T034354Z
+SUMMARY:The Peak ou Sai Kung
+DESCRIPTION:Vue skyline ou plages. À décider la veille.
+DTSTART;TZID=Asia/Hong_Kong:20260913T090000
+DTEND;TZID=Asia/Hong_Kong:20260913T150000
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-14-morning@sena-hk-guide.local
+DTSTAMP:20260910T034354Z
+SUMMARY:Australia Dairy + Jordan
+DESCRIPTION:Le petit-déj le plus hongkongais. Puis flânerie Jordan.
+DTSTART;TZID=Asia/Hong_Kong:20260914T090000
+DTEND;TZID=Asia/Hong_Kong:20260914T120000
+LOCATION:47–49 Parkes St\, Jordan
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-14-afternoon@sena-hk-guide.local
+DTSTAMP:20260910T034354Z
+SUMMARY:Mong Kok densité max
+DESCRIPTION:Ladies’ Market\, Flower Market\, Sneaker Street. Chaos orga
+ nisé.
+DTSTART;TZID=Asia/Hong_Kong:20260914T133000
+DTEND;TZID=Asia/Hong_Kong:20260914T173000
+LOCATION:Mong Kok
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-14-evening@sena-hk-guide.local
+DTSTAMP:20260910T034354Z
+SUMMARY:Retrouvailles Central / Soho
+DESCRIPTION:Je finis vers 18h30. On mange quelque part près de chez nous
+ .
+DTSTART;TZID=Asia/Hong_Kong:20260914T183000
+DTEND;TZID=Asia/Hong_Kong:20260914T213000
+LOCATION:Central
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-15-morning@sena-hk-guide.local
+DTSTAMP:20260910T034354Z
+SUMMARY:M+
+DESCRIPTION:Art contemporain asiatique. Architecture + collections.
+DTSTART;TZID=Asia/Hong_Kong:20260915T100000
+DTEND;TZID=Asia/Hong_Kong:20260915T130000
+LOCATION:West Kowloon Cultural District
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-15-afternoon@sena-hk-guide.local
+DTSTAMP:20260910T034354Z
+SUMMARY:Palace Museum ou waterfront
+DESCRIPTION:Ou juste marcher le long du harbour côté Kowloon.
+DTSTART;TZID=Asia/Hong_Kong:20260915T140000
+DTEND;TZID=Asia/Hong_Kong:20260915T173000
+LOCATION:West Kowloon
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-15-evening@sena-hk-guide.local
+DTSTAMP:20260910T034354Z
+SUMMARY:Star Ferry retour + dîner
+DESCRIPTION:Repasse en ferry vers Central.
+DTSTART;TZID=Asia/Hong_Kong:20260915T180000
+DTEND;TZID=Asia/Hong_Kong:20260915T210000
+LOCATION:Central Pier 7
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-16-morning@sena-hk-guide.local
+DTSTAMP:20260910T034354Z
+SUMMARY:Chi Lin Nunnery
+DESCRIPTION:Temple en bois\, silence\, photos.
+DTSTART;TZID=Asia/Hong_Kong:20260916T093000
+DTEND;TZID=Asia/Hong_Kong:20260916T113000
+LOCATION:Diamond Hill
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-16-afternoon@sena-hk-guide.local
+DTSTAMP:20260910T034354Z
+SUMMARY:Nan Lian Garden + café
+DESCRIPTION:Jardin Tang. Puis retour Central en MTR — repose-toi un peu
+  avant le soir.
+DTSTART;TZID=Asia/Hong_Kong:20260916T113000
+DTEND;TZID=Asia/Hong_Kong:20260916T150000
+LOCATION:Diamond Hill
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-16-evening@sena-hk-guide.local
+DTSTAMP:20260910T034354Z
+SUMMARY:Courses à Happy Valley
+DESCRIPTION:Les courses du mercredi soir\, l’institution locale : hippo
+ drome cerné de tours illuminées. Portes vers 18h30\, première course 
+ vers 19h15. Tram « ding ding » direction Happy Valley\, ou MTR jusqu
+ ’à Causeway Bay puis 10 min à pied.
+DTSTART;TZID=Asia/Hong_Kong:20260916T183000
+DTEND;TZID=Asia/Hong_Kong:20260916T223000
+LOCATION:2 Sports Road\, Happy Valley
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-17-morning@sena-hk-guide.local
+DTSTAMP:20260910T034354Z
+SUMMARY:Repulse Bay
+DESCRIPTION:Plage + temple Tin Hau.
+DTSTART;TZID=Asia/Hong_Kong:20260917T093000
+DTEND;TZID=Asia/Hong_Kong:20260917T123000
+LOCATION:Repulse Bay
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-17-afternoon@sena-hk-guide.local
+DTSTAMP:20260910T034354Z
+SUMMARY:Stanley Market + village
+DESCRIPTION:Shopping léger\, bière face à la mer.
+DTSTART;TZID=Asia/Hong_Kong:20260917T133000
+DTEND;TZID=Asia/Hong_Kong:20260917T170000
+LOCATION:Stanley
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-18-morning@sena-hk-guide.local
+DTSTAMP:20260910T034354Z
+SUMMARY:Sheung Wan libre
+DESCRIPTION:Café\, shopping léger\, prep boat party.
+DTSTART;TZID=Asia/Hong_Kong:20260918T100000
+DTEND;TZID=Asia/Hong_Kong:20260918T130000
+LOCATION:Sheung Wan
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-18-afternoon@sena-hk-guide.local
+DTSTAMP:20260910T034354Z
+SUMMARY:The Peak
+DESCRIPTION:Peak Tram ou bus 15. Reste pour la nuit.
+DTSTART;TZID=Asia/Hong_Kong:20260918T163000
+DTEND;TZID=Asia/Hong_Kong:20260918T193000
+LOCATION:The Peak
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-18-evening@sena-hk-guide.local
+DTSTAMP:20260910T034354Z
+SUMMARY:Dîner + prep demain
+DESCRIPTION:Tôt au lit — boat party demain toute la journée.
+DTSTART;TZID=Asia/Hong_Kong:20260918T200000
+DTEND;TZID=Asia/Hong_Kong:20260918T213000
+LOCATION:34–38 Stanley St\, Central
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-19-morning@sena-hk-guide.local
+DTSTAMP:20260910T034354Z
+SUMMARY:Junk boat — journée sur l’eau
+DESCRIPTION:Rendez-vous avec Dario. Toute la journée.
+DTSTART;TZID=Asia/Hong_Kong:20260919T100000
+DTEND;TZID=Asia/Hong_Kong:20260919T180000
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-19-evening@sena-hk-guide.local
+DTSTAMP:20260910T034354Z
+SUMMARY:Retour + after possible
+DESCRIPTION:Douche\, puis éventuellement un rooftop calme.
+DTSTART;TZID=Asia/Hong_Kong:20260919T190000
+DTEND;TZID=Asia/Hong_Kong:20260919T220000
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-20-morning@sena-hk-guide.local
+DTSTAMP:20260910T034354Z
+SUMMARY:Brunch lent
+DESCRIPTION:Cha chaan teng ou café près de chez toi.
+DTSTART;TZID=Asia/Hong_Kong:20260920T110000
+DTEND;TZID=Asia/Hong_Kong:20260920T130000
+LOCATION:2 Gage St\, Central
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-20-afternoon@sena-hk-guide.local
+DTSTAMP:20260910T034354Z
+SUMMARY:Option Lantau ou flânerie
+DESCRIPTION:Ngong Ping 360 + Big Buddha\, ou juste Tai Kwun.
+DTSTART;TZID=Asia/Hong_Kong:20260920T140000
+DTEND;TZID=Asia/Hong_Kong:20260920T180000
+LOCATION:Lantau
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-21-morning@sena-hk-guide.local
+DTSTAMP:20260910T034354Z
+SUMMARY:Souvenirs + derniers spots
+DESCRIPTION:Cat Street\, PMQ\, dernière milk tea.
+DTSTART;TZID=Asia/Hong_Kong:20260921T100000
+DTEND;TZID=Asia/Hong_Kong:20260921T130000
+LOCATION:Upper Lascar Row\, Sheung Wan
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-21-afternoon@sena-hk-guide.local
+DTSTAMP:20260910T034354Z
+SUMMARY:Bagages + départ ensemble
+DESCRIPTION:Je te rejoins. Airport Express depuis Hong Kong Station.
+DTSTART;TZID=Asia/Hong_Kong:20260921T173000
+DTEND;TZID=Asia/Hong_Kong:20260921T193000
+LOCATION:Hong Kong Station\, IFC / Central
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-21-evening@sena-hk-guide.local
+DTSTAMP:20260910T034354Z
+SUMMARY:Vol TK71 22h30
+DESCRIPTION:Arrivée à Istanbul le lendemain à 10h15\, heure de Hong Ko
+ ng.
+DTSTART;TZID=Asia/Hong_Kong:20260921T223000
+DTEND;TZID=Asia/Hong_Kong:20260922T101500
+END:VEVENT
+END:VCALENDAR

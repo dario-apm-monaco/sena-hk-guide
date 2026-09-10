@@ -1,0 +1,49 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+PRODID:-//Sena HK Guide//Calendrier//FR
+X-WR-CALNAME:Arrivée
+X-WR-TIMEZONE:Asia/Hong_Kong
+BEGIN:VTIMEZONE
+TZID:Asia/Hong_Kong
+X-LIC-LOCATION:Asia/Hong_Kong
+BEGIN:STANDARD
+TZOFFSETFROM:+0800
+TZOFFSETTO:+0800
+TZNAME:HKT
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:2026-09-11-morning@sena-hk-guide.local
+DTSTAMP:20260910T034354Z
+SUMMARY:Atterrissage → Airport Express
+DESCRIPTION:Immigration\, bagages\, Airport Express. Je t’attends à la
+  sortie du train à Hong Kong Station. Suis l’assistant Arrivée pas 
+ à pas.
+DTSTART;TZID=Asia/Hong_Kong:20260911T072500
+DTEND;TZID=Asia/Hong_Kong:20260911T103000
+LOCATION:Hong Kong Station\, IFC / Central
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-11-afternoon@sena-hk-guide.local
+DTSTAMP:20260910T034354Z
+SUMMARY:Sieste puis balade Sheung Wan
+DESCRIPTION:Réveil avant 14h. Man Mo Temple (2 min)\, Cat Street\, PMQ\,
+  un café. Zéro transport.
+DTSTART;TZID=Asia/Hong_Kong:20260911T140000
+DTEND;TZID=Asia/Hong_Kong:20260911T173000
+LOCATION:124–126 Hollywood Road
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-11-evening@sena-hk-guide.local
+DTSTAMP:20260910T034354Z
+SUMMARY:Star Ferry → Vibes Below Zero @ The Rink
+DESCRIPTION:Coucher de soleil en Star Ferry\, puis Elements (Kowloon Stat
+ ion). Détails de la soirée ci-dessous.
+DTSTART;TZID=Asia/Hong_Kong:20260911T183000
+DTEND;TZID=Asia/Hong_Kong:20260911T233000
+LOCATION:Central Pier 7
+END:VEVENT
+END:VCALENDAR
